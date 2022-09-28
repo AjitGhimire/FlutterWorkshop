@@ -1,0 +1,16 @@
+// importing dart:io file
+import 'dart:io';
+
+void main()
+{
+	print("Enter your name?");
+	// Reading name of the Geek
+	String? name = stdin.readLineSync();
+    print("Enter your age:");
+    int? age=  int.parse(stdin.readLineSync()!);
+ print("Your name is: $name");
+ print("Your age is:$age ");
+ int? remaining = 100-age;
+ print("To become 100 years old, the age remaining is: $remaining");
+
+}
